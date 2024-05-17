@@ -1,0 +1,27 @@
+tripdata:
+  type: pandas.CSVDataset
+  filepath: data/01_raw/tripdata_original.csv
+
+preprocessed_tripdata:
+  type: pandas.CSVDataset
+  filepath: data/02_intermediate/preprocessed_tripdata.csv
+
+dataset1:
+  type: pandas.CSVDataset
+  filepath: data/02_intermediate/dataset1.csv
+
+dataset2:
+  type: pandas.CSVDataset
+  filepath: data/02_intermediate/dataset2.csv
+
+dataset1_processed:
+  type: pandas.CSVDataset
+  filepath: data/02_intermediate/dataset1_processed.csv
+
+dataset2_processed:
+  type: pandas.CSVDataset
+  filepath: data/02_intermediate/dataset2_processed.csv
+
+data_summary:
+  type: pandas.CSVDataset
+  filepath: data/02_intermediate/data_summary.csv
