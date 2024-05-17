@@ -97,3 +97,6 @@ To automatically strip out all output cell contents before committing to `git`, 
 ## Package your Kedro project
 
 [Further information about building project documentation and packaging your project](https://docs.kedro.org/en/stable/tutorial/package_a_project.html).
+
+# Data
+Data files are too big to be imported into github, processed data is also not complete, as it is too big.
